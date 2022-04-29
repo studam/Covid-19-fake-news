@@ -2,7 +2,7 @@
 
 # COVID-19 Fake News
 
-Using Machine Learning to detect COVID-19 Fake News.
+Collaborative Machine Learning project: Using modeling techniques to determine the legitimacy of a new source.
 
 # Background
 
