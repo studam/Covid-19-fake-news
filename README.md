@@ -29,5 +29,16 @@ Real News
 
 ![true_news_dataset](images/true_news.png)
 
-# Exploratory Data Analysis (EDA)
+# EDA
+
+Before training our models, we accomplished some exploratory data analysis (EDA) to understand the shape and make-up of our data.
+
+```python
+# How many fake and real articles?
+print(fake.groupby(['target'])['Text'].count())
+print(true.groupby(['target'])['Text'].count())
+News.groupby(['Label'])['Text'].count().plot(kind="bar")
+plt.show()
+```
+![How many fake and real articles?](images/fake_real_articles.png)
 
