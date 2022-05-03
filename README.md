@@ -22,11 +22,12 @@ We have used a Google colab notebook. The following packages are involved:
 # Data
 The dataset consist of two csv file, Fake and true news. 
 
-Fake news dataset
-![fake_news_dataset] (image/fake_news.png)
+Fake News
+![fake_news_dataset](images/fake_news.png)
 
-Real news dataset
-![true_news_dataset] (image/true_news.png)
+Real News
+
+![true_news_dataset](images/true_news.png)
 
 # Exploratory Data Analysis (EDA)
 
