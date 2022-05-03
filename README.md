@@ -42,3 +42,23 @@ plt.show()
 ```
 ![How many fake and real articles?](images/fake_real_articles.png)
 
+# Wordcloud for Fake News
+```python
+# Word cloud for fake news
+from wordcloud import WordCloud
+
+all_words = ' '.join([text for text in fake.Text])
+
+wordcloud = WordCloud(width= 800, height= 500,
+                          max_font_size = 110,
+                          collocations = False).generate(all_words)
+#another style
+#wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white").generate(all_words)
+
+plt.figure(figsize=(10,7))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
+```
+!wordcloudfake news?](images/wordcloud_fake_news.png)
+
