@@ -10,4 +10,10 @@ The outbreak of the novel coronavirus (COVID-19) has been accompanied by a large
 
 Misinformation cost lives. Without the appropriate trust and correct information, diagnostic test go unused,immunization campaigns to promote effective vaccines will not meet their targets,and the virus will continue to thrive.
 
-
+# Setup
+This project aims to develop a method for detecting and classifying COVID-19 fake news stories using Natural Language Processing.
+We have used a Google colab notebook. The following packages are involved:
+* spaCy is a high-performance NLP library for production use.
+* scikit-learn: helpful package for data analysis and machine learning.
+* matplotlib.pyplot: a typical package for data visualisation in Python.
+* Pandas is a Python data analysis and manipulation tool that is widespread, flexible, and simple to use
