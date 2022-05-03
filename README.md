@@ -16,4 +16,17 @@ We have used a Google colab notebook. The following packages are involved:
 * spaCy is a high-performance NLP library for production use.
 * scikit-learn: helpful package for data analysis and machine learning.
 * matplotlib.pyplot: a typical package for data visualisation in Python.
-* Pandas is a Python data analysis and manipulation tool that is widespread, flexible, and simple to use
+* Pandas is a Python data analysis and manipulation tool that is widespread, flexible, and simple to use.
+
+
+# Data
+The dataset consist of two csv file, Fake and true news. 
+
+Fake news dataset
+![fake_news_dataset] (image/fake_news.png)
+
+Real news dataset
+![true_news_dataset] (image/true_news.png)
+
+# Exploratory Data Analysis (EDA)
+
