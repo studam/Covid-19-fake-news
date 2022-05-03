@@ -60,5 +60,22 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 plt.show()
 ```
-!wordcloudfake news?](images/wordcloud_fake_news.png)
+![wordcloud fake news?](images/wordcloud_fake_news.png)
 
+# Wordcloud for Real News
+```python
+# Word cloud for true news
+from wordcloud import WordCloud
+
+all_words = ' '.join([text for text in true.Text])
+
+wordcloud = WordCloud(width= 800, height= 500,
+                          max_font_size = 110,
+                          collocations = False).generate(all_words)
+
+plt.figure(figsize=(10,7))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
+```
+![wordcloud true news?](images/wordcloud_fake_news.png)
