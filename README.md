@@ -60,7 +60,7 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 plt.show()
 ```
-![wordcloud fake news?](images/wordcloud_fake_news.png)
+![wordcloud fake news](images/wordcloud_fake_news.png)
 
 # Wordcloud for Real News
 ```python
@@ -78,4 +78,4 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 plt.show()
 ```
-![wordcloud true news?](images/wordcloud_fake_news.png)
+![wordcloud true news?](images/wordcloud_real_news.png)
