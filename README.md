@@ -1,6 +1,6 @@
 ![Covid-19_fake_news](/images/covid_19_fake_news.jpeg)
 
-# COVID-19 Fake News
+# Detecing COVID-19 Fake News
 
 Collaborative Machine Learning project: Using modeling techniques to determine the legitimacy of a new source.
 
